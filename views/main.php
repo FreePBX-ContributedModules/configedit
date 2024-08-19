@@ -45,7 +45,7 @@
 		<div class="col-md-8">
 			<h3 id="filemessage"><?php echo _('Click a file on the left to edit')?></h3>
 			<div id="message" class="alert alert-danger hidden" role="alert"></div>
-			<textarea id="editor" disabled></textarea>
+			<textarea id="editor" style="user-select: text;"></textarea>
 			<br/>
 			<button id="delete" class="pull-right btn btn-danger" disabled><?php echo _("Delete")?></button>
 			<button id="save" class="pull-right btn" disabled><?php echo _("Save")?></button>

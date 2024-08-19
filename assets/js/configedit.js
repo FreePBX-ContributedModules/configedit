@@ -30,6 +30,7 @@ $(function() {
 		lineNumbers: true,
 		mode: "text/x-asterisk",
 		matchBrackets: true,
+		readOnly: false 
 	});
 
 	cmeditor.setSize($(".col-md-8").width(), 350);
