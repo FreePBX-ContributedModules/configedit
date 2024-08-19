@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 01:57-0400\n"
+"POT-Creation-Date: 2024-08-19 09:25-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "Admin"
 msgstr ""
 
-#: assets/js/configedit.js:41
+#: assets/js/configedit.js:42
 msgid "Are you sure you want to delete this file?"
 msgstr ""
 
@@ -40,7 +40,7 @@ msgstr ""
 
 #: views/main.php:46
 #: assets/js/configedit.js:10
-#: assets/js/configedit.js:48
+#: assets/js/configedit.js:49
 msgid "Click a file on the left to edit"
 msgstr ""
 
@@ -91,25 +91,25 @@ msgstr ""
 msgid "File %s is not writable"
 msgstr ""
 
-#: assets/js/configedit.js:123
+#: assets/js/configedit.js:124
 msgid "File is not writable"
 msgstr ""
 
-#: assets/js/configedit.js:79
+#: assets/js/configedit.js:80
 msgid "Please enter a valid (not in use) file name"
 msgstr ""
 
 #: views/main.php:51
-#: assets/js/configedit.js:72
+#: assets/js/configedit.js:73
 msgid "Save"
 msgstr ""
 
-#: assets/js/configedit.js:61
+#: assets/js/configedit.js:62
 msgid ""
 "Saved. Make sure to Apply Config so that Asterisk will pickup your changes"
 msgstr ""
 
-#: assets/js/configedit.js:57
+#: assets/js/configedit.js:58
 msgid "Saving..."
 msgstr ""
 
@@ -132,7 +132,7 @@ msgstr ""
 msgid "What is Configuration File Editor"
 msgstr ""
 
-#: assets/js/configedit.js:128
+#: assets/js/configedit.js:129
 #, perl-format
 msgid "Working on %s"
 msgstr ""
