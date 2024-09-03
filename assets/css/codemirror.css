@@ -145,6 +145,12 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
   overflow: hidden;
   background: white;
 }
+.CodeMirror {
+  pointer-events: auto; /*pointer events are enabled  for code mirror*/
+}
+.CodeMirror * {
+  user-select: text !important;
+}
 
 .CodeMirror-scroll {
   overflow: scroll !important; /* Things will break if this is overridden */
@@ -207,7 +213,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
 .CodeMirror-gutter-elt {
   position: absolute;
   cursor: default;
-  z-index: 4;
+  /* z-index: 4; */
 }
 .CodeMirror-gutter-wrapper {
   -webkit-user-select: none;
@@ -231,7 +237,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
   word-wrap: normal;
   line-height: inherit;
   color: inherit;
-  z-index: 2;
+  /* z-index: 2; */
   position: relative;
   overflow: visible;
   -webkit-tap-highlight-color: transparent;
